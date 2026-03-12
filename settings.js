@@ -9,11 +9,11 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ["6282113821188"] // ['628','628'] 2 owner atau lebih
-global.author = 'Nazedev'
+global.owner = ["263712473551"] // ['628','628'] 2 owner atau lebih
+global.author = 'Lord Habaek'
 global.botname = 'Hitori Bot'
 global.packname = 'Bot WhatsApp'
-global.timezone = 'Asia/Jakarta' // Ganti pakai command .settimezone Makasar
+global.timezone = 'Africa/Harare' // Ganti pakai command .settimezone Makasar
 global.locale = 'en' // Ganti pakai command .setlocale
 global.listprefix = ['+','!','.']
 
@@ -94,4 +94,5 @@ fs.watchFile(file, () => {
 	console.log(chalk.yellowBright(`[UPDATE] ${__filename}`))
 	delete require.cache[file]
 	require(file)
+
 });
